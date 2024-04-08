@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(53, 99, 53);
+    background-blend-mode: darken;
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+    margin: auto 0 auto;
+}
+.btns{
+    all: unset;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: green;
+    border: solid 2px gray;
+}
+.models{
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px gray,-2px -2px 3px gray;
+    margin:100px auto;
+    background-color: white;
+    z-index: 22;
+}
+.hidden{
+    display: none;
+
+}
+.close{
+    margin:0 0 0 90%;
+    text-align: right;
+}
+
+/* .overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}   */
